@@ -95,7 +95,7 @@
     font-size: 14px; font-weight: 600; letter-spacing: .04em;
     border: 1px solid var(--green);
     transition: background .2s;
-    cursor: pointer; font-family: inherit;
+    cursor: pointer; font-family: inherit; white-space: nowrap;
   }
   .btn:hover { background: var(--green-deep); }
   .btn.ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
@@ -356,10 +356,10 @@
     <a href="#top" class="logo"><small>HAIR SALON</small>정재연헤어</a>
     <nav class="nav">
       <a href="#about">원장 소개</a>
-      <a href="#menu">메뉴</a>
+      <a href="#menu">가격안내</a>
       <a href="#portfolio">포트폴리오</a>
       <a href="#visit">오시는 길</a>
-      <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ydgZdLjEgLgEERM7LbjQSBkOJ3-p_bvubj53xuwJAdvtIrc_WC5fEr18RKDYkHnnsavNcoVDY?gv=true" target="_blank" rel="noopener" class="btn sm">예약하기</a>
+      <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ydgZdLjEgLgEERM7LbjQSBkOJ3-p_bvubj53xuwJAdvtIrc_WC5fEr18RKDYkHnnsavNcoVDY?gv=true" target="_blank" rel="noopener" class="btn sm">온라인 예약하기</a>
     </nav>
   </div>
 </header>
@@ -372,8 +372,8 @@
       <h1>정재연헤어</h1>
       <p class="lead">예약한 시간은 오롯이 한 분만을 위해.<br>원장이 직접, 편안하게 시술합니다.</p>
       <div class="hero-actions">
-        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ydgZdLjEgLgEERM7LbjQSBkOJ3-p_bvubj53xuwJAdvtIrc_WC5fEr18RKDYkHnnsavNcoVDY?gv=true" target="_blank" rel="noopener" class="btn">예약하기</a>
-        <a href="#menu" class="btn ghost">메뉴 보기</a>
+        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ydgZdLjEgLgEERM7LbjQSBkOJ3-p_bvubj53xuwJAdvtIrc_WC5fEr18RKDYkHnnsavNcoVDY?gv=true" target="_blank" rel="noopener" class="btn">온라인 예약하기</a>
+        <a href="#menu" class="btn ghost">가격안내 보기</a>
       </div>
     </div>
     <figure class="photo" data-label="대표 시술 사진">
@@ -405,7 +405,7 @@
     <div class="wrap">
       <div class="sec-head reveal">
         <span class="eyebrow">Menu &amp; Price</span>
-        <h2>메뉴</h2>
+        <h2>가격안내</h2>
       </div>
       <div class="menu-grid reveal">
         <div class="menu-col">
@@ -420,12 +420,12 @@
         <div class="menu-col">
           <h3>펌 <em>Perm</em></h3>
           <ul>
-            <li>일반 펌<b>60,000~</b></li>
+            <li>일반 펌<b>50,000~</b></li>
             <li>디지털 펌<b>70,000~</b></li>
-            <li>셋팅 펌<b>80,000~</b></li>
+            <li>셋팅 펌<b>90,000~</b></li>
             <li>남성 다운펌<b>20,000~</b></li>
-            <li>매직<b>90,000~</b></li>
-            <li>볼륨매직<b>140,000~</b></li>
+            <li>매직<b>60,000~</b></li>
+            <li>볼륨매직<b>100,000~</b></li>
           </ul>
         </div>
         <div class="menu-col">
@@ -433,6 +433,7 @@
           <ul>
             <li>뿌리 염색<b>40,000~</b></li>
             <li>전체 염색<b>50,000~</b></li>
+            <li>헤나<b>70,000~</b></li>
             <li>탈색<b>100,000~</b></li>
           </ul>
         </div>
@@ -518,7 +519,7 @@
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="long">
           <div class="photo shot" data-label="볼륨 컬 펌"><img src="images/work-4.jpg" alt="굵고 풍성하게 흐르는 볼륨 웨이브 컬" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 긴머리</em><strong>볼륨 컬 펌</strong><span>숱이 적어 보일 때 뿌리부터 풍성하게</span><b>일반 펌 60,000~</b></figcaption>
+          <figcaption><em>PERM · 긴머리</em><strong>볼륨 컬 펌</strong><span>숱이 적어 보일 때 뿌리부터 풍성하게</span><b>일반 펌 50,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="cut" data-len="long">
           <div class="photo shot" data-label="러브 레이어"><img src="images/trend-love-layer.jpg" alt="긴 기장에 끝을 가볍게 친 레이어드 헤어" loading="lazy" onerror="this.remove()"></div>
@@ -538,15 +539,15 @@
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="long">
           <div class="photo shot" data-label="엘리자벳펌"><img src="images/s-elizabeth.jpg" alt="굵은 S컬이 층층이 떨어지는 검은 긴 머리 뒷모습" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 긴머리</em><strong>엘리자벳펌</strong><span>굵은 S컬이 층층이 떨어지는 우아한 웨이브</span><b>셋팅 펌 80,000~</b></figcaption>
+          <figcaption><em>PERM · 긴머리</em><strong>엘리자벳펌</strong><span>굵은 S컬이 층층이 떨어지는 우아한 웨이브</span><b>셋팅 펌 90,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="long">
           <div class="photo shot" data-label="C컬 셋팅 펌"><img src="images/work-1.jpg" alt="연갈색 머리 끝이 J컬처럼 살짝 말린 C컬 셋팅 펌" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 긴머리</em><strong>C컬 셋팅 펌</strong><span>말리기만 해도 끝선이 안쪽으로 정돈</span><b>셋팅 펌 80,000~</b></figcaption>
+          <figcaption><em>PERM · 긴머리</em><strong>C컬 셋팅 펌</strong><span>말리기만 해도 끝선이 안쪽으로 정돈</span><b>셋팅 펌 90,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="long">
           <div class="photo shot" data-label="볼륨매직 롱"><img src="images/s-magic-long.jpg" alt="윤기 있게 매끈한 갈색 긴 생머리" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 긴머리</em><strong>볼륨매직 롱</strong><span>뿌리 볼륨은 살리고 결은 매끈하게</span><b>볼륨매직 140,000~</b></figcaption>
+          <figcaption><em>PERM · 긴머리</em><strong>볼륨매직 롱</strong><span>뿌리 볼륨은 살리고 결은 매끈하게</span><b>볼륨매직 100,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="cut" data-len="long">
           <div class="photo shot" data-label="허쉬컷"><img src="images/s-hush-cut.jpg" alt="긴 머리에 층을 많이 낸 레이어드 허쉬컷" loading="lazy" onerror="this.remove()"></div>
@@ -566,7 +567,7 @@
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="medium">
           <div class="photo shot" data-label="히피펌"><img src="images/s-hippie-perm.jpg" alt="굵고 탄력 있는 컬이 풍성한 히피펌" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 중단발</em><strong>히피펌</strong><span>굵고 탄력 있는 컬로 볼륨감 있게 풍성한 스타일</span><b>일반 펌 60,000~</b></figcaption>
+          <figcaption><em>PERM · 중단발</em><strong>히피펌</strong><span>굵고 탄력 있는 컬로 볼륨감 있게 풍성한 스타일</span><b>일반 펌 50,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="men" data-len="medium">
           <div class="photo shot" data-label="리프 컷"><img src="images/s-leaf-cut.jpg" alt="앞머리를 자연스럽게 내린 남성 컷" loading="lazy" onerror="this.remove()"></div>
@@ -574,7 +575,7 @@
         </figure>
         <figure class="work reveal" data-cat="men" data-len="medium">
           <div class="photo shot" data-label="쉐도우 펌"><img src="images/trend-shadow-perm.jpg" alt="굵게 흐트러진 컬의 남성 펌" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>MEN · 중단발</em><strong>쉐도우 펌</strong><span>가닥가닥 잔머리를 살린 내추럴 펌</span><b>일반 펌 60,000~</b></figcaption>
+          <figcaption><em>MEN · 중단발</em><strong>쉐도우 펌</strong><span>가닥가닥 잔머리를 살린 내추럴 펌</span><b>일반 펌 50,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="cut" data-len="medium">
           <div class="photo shot" data-label="소프트 샤기"><img src="images/trend-soft-shaggy.jpg" alt="어깨 길이의 가벼운 웨이브 레이어 헤어" loading="lazy" onerror="this.remove()"></div>
@@ -626,7 +627,7 @@
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="bob">
           <div class="photo shot" data-label="볼륨매직 단발"><img src="images/s-magic-bob.jpg" alt="쇄골 아래로 곧고 볼륨 있게 떨어지는 청순한 볼륨매직" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 단발</em><strong>볼륨매직 단발</strong><span>부스스한 곱슬을 정돈하고 끝은 안으로</span><b>볼륨매직 140,000~</b></figcaption>
+          <figcaption><em>PERM · 단발</em><strong>볼륨매직 단발</strong><span>부스스한 곱슬을 정돈하고 끝은 안으로</span><b>볼륨매직 100,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="color" data-len="bob">
           <div class="photo shot" data-label="코퍼 오렌지"><img src="images/s-copper-orange.jpg" alt="밝은 구리빛 오렌지 컬러의 짧은 머리" loading="lazy" onerror="this.remove()"></div>
@@ -646,7 +647,7 @@
         </figure>
         <figure class="work reveal" data-cat="perm" data-len="short">
           <div class="photo shot" data-label="숏 컬 펌"><img src="images/s-short-curl.jpg" alt="짧은 금발에 잔컬이 있는 숏헤어" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>PERM · 숏</em><strong>숏 컬 펌</strong><span>짧은 머리에 볼륨과 생기를 더하는 컬</span><b>일반 펌 60,000~</b></figcaption>
+          <figcaption><em>PERM · 숏</em><strong>숏 컬 펌</strong><span>짧은 머리에 볼륨과 생기를 더하는 컬</span><b>일반 펌 50,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="men" data-len="short">
           <div class="photo shot" data-label="댄디 컷"><img src="images/trend-dandy-cut.jpg" alt="결을 살려 단정하게 넘긴 남성 커트" loading="lazy" onerror="this.remove()"></div>
@@ -662,7 +663,7 @@
         </figure>
         <figure class="work reveal" data-cat="men" data-len="short">
           <div class="photo shot" data-label="가르마 펌"><img src="images/s-part-perm.jpg" alt="가르마를 탄 남성 헤어" loading="lazy" onerror="this.remove()"></div>
-          <figcaption><em>MEN · 숏</em><strong>가르마 펌</strong><span>가르마 라인을 살려 뜨지 않게 정리</span><b>일반 펌 60,000~</b></figcaption>
+          <figcaption><em>MEN · 숏</em><strong>가르마 펌</strong><span>가르마 라인을 살려 뜨지 않게 정리</span><b>일반 펌 50,000~</b></figcaption>
         </figure>
         <figure class="work reveal" data-cat="men" data-len="short">
           <div class="photo shot" data-label="슬릭 컷"><img src="images/s-slick-cut.jpg" alt="질감을 살린 짧은 남성 헤어" loading="lazy" onerror="this.remove()"></div>
@@ -752,7 +753,7 @@
 
 <nav class="mobile-bar">
   <a href="tel:031-717-9404">전화하기</a>
-  <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ydgZdLjEgLgEERM7LbjQSBkOJ3-p_bvubj53xuwJAdvtIrc_WC5fEr18RKDYkHnnsavNcoVDY?gv=true" target="_blank" rel="noopener">예약하기</a>
+  <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ydgZdLjEgLgEERM7LbjQSBkOJ3-p_bvubj53xuwJAdvtIrc_WC5fEr18RKDYkHnnsavNcoVDY?gv=true" target="_blank" rel="noopener">온라인 예약하기</a>
 </nav>
 
 <script>
